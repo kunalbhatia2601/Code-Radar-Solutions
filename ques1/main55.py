@@ -1,7 +1,4 @@
-# Python Playgroun
-numbers = [1, 2, 3, 4, 5]
-
-# Map numbers to their squares
+s
 squares = [n ** 2 for n in numbers]
 print(f"Original numbers: {numbers}")
 print(f"Squared numbers: {squares}")
