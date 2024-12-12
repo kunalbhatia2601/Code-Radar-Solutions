@@ -1,4 +1,4 @@
-# Python Playground
+# Python Playgroun
 numbers = [1, 2, 3, 4, 5]
 
 # Map numbers to their squares
