@@ -1,6 +1,8 @@
 # Python Playground
 numbers = [1, 2, 3, 4, 5]
 
+# The Kunal Hijack
+
 # Map numbers to their squares
 squares = [n ** 2 for n in numbers]
 print(f"Original numbers: {numbers}")
