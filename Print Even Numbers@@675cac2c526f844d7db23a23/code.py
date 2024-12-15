@@ -12,4 +12,3 @@ print(f"Even numbers: {even_numbers}")
 
 # Calculate sum
 numbers_sum = sum(numbers)
-print(f"Sum of numbers: {numbers_sum}")
