@@ -4,5 +4,4 @@ for i in range(0, n):
     x = int(input())
 
     if(x%2==0):
-        print(x)
-        print("")
+        print(f'{x}')
