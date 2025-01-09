@@ -6,6 +6,6 @@ int main()
     char s[100];
     fgets(s, sizeof(s), stdin);
 
-    printf("%d", strlen(s)-1);
+    printf("%d", strlen(s));
 
 }
