@@ -3,7 +3,6 @@
 
 int main() 
 {
-    
     char s[100];
     fgets(s, sizeof(s), stdin);
 
