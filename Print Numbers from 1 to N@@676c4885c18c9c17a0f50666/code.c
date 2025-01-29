@@ -7,7 +7,7 @@ int main() {
 
     char c[100] = "";
 
-    for(i=1; i<n; i++)
+    for(i=1; i<=n; i++)
     {
         printf("%d ", i);
     }
