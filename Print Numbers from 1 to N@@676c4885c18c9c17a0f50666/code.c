@@ -12,7 +12,7 @@ int main() {
         c = c + i+1 + " ";
     }
 
-    printf("%s", c);
+    // printf("%s", c);
 
     return 0;
 }
