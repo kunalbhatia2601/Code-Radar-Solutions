@@ -7,10 +7,10 @@ int main() {
 
     char c[100] = "";
 
-
-
     for(i=0; i<n; i++)
+    {
         c = c + i+1 + " ";
+    }
 
     printf("%s", c);
 
