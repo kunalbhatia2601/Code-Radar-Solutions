@@ -2,12 +2,14 @@
 
 int main() {
     
-    int n;
+    int n, i;
     scanf("%d", &n);
 
     char c[100] = "";
 
-    for(int i=0; i<n; i++)
+
+
+    for(i=0; i<n; i++)
         c = c + i+1 + " ";
 
     printf("%s", c);
