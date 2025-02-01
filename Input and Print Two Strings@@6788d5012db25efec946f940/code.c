@@ -17,8 +17,6 @@ int main() {
     char[100] c;
     scanf("%s%s", &a, &b);
 
-    c = a + " and " + b;
-
-    printf("%s", c);
+    printf("%s and %s", a, b);
     return 0;
 }
