@@ -3,5 +3,5 @@
 int main() {
     int a;
     scanf("%d", &a);
-    printf("You ented: %d", a)
+    printf("You ented: %d", a);
 }
