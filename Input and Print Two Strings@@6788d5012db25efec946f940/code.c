@@ -12,8 +12,9 @@ char* welcome() {
 }
 
 int main() {
-    char[100] a, b,c ;
-
+    char[100] a;
+    char[100] b;
+    char[100] c;
     scanf("%s%s", &a, &b);
 
     c = a + " and " + b;
