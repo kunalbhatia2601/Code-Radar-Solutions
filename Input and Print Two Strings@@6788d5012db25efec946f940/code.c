@@ -12,6 +12,12 @@ char* welcome() {
 }
 
 int main() {
-    printf("%s", welcome());
+    char[100] a, b,c ;
+
+    scanf("%s%s", &a, &b);
+
+    c = a + " and " + b;
+
+    printf("%s", c);
     return 0;
 }
