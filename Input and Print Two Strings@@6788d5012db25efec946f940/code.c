@@ -1,7 +1,14 @@
 #include <stdio.h>
 
 char* welcome() {
-    return "Welcome to Code Radar!";
+
+    char[100] a, b,c ;
+
+    scanf("%s%s", &a, &b);
+
+    c = a + " and " + b;
+
+    return c;
 }
 
 int main() {
