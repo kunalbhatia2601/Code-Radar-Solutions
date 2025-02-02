@@ -6,9 +6,9 @@ char* welcome() {
 
 int main() {
 
-    char a[10];
-    scanf("%s", &a);
+    int a;
+    scanf("%d", &a);
 
-    printf("%s", a);
+    printf("%d", a);
     return 0;
 }
