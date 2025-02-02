@@ -7,8 +7,8 @@ char* welcome() {
 int main() {
 
     char a[10];
-    scanf("%c", &a);
+    scanf("%s", &a);
 
-    printf("%c", a);
+    printf("%s", a);
     return 0;
 }
