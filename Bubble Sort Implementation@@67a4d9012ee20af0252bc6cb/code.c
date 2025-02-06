@@ -2,10 +2,13 @@
 
 void bubbleSort(int ary[], int n)
 {
-    printf("%d", n);
+    ary.sort(ary.begin(), ary.end());
 }
 
 void printArray(int ary[], int n)
 {
-    printf("%d", n);
+    for(int i=0; i<n; i++)
+    {
+        printf("%d", ary[i]);
+    }
 }
