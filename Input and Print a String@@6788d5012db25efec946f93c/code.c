@@ -5,7 +5,7 @@ char* welcome()
     return "Welcome to Code Radar!";
 }
 
-int main( {
+int main{
     char a[100];
     scanf("%s", &a);
     printf("You entered: %s", a);
