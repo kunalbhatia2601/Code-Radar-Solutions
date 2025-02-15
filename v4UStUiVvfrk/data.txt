@@ -1,1 +1,1 @@
-[{"id":"67b0eb4a17930522cbe25a0e","title":"Output of C program with increment operators","correctAnswer":"12 11 11","selectedOption":"11 11 11","isCorrect":false,"type":"MCQ"}]
+[{"id":"67b0eb4a17930522cbe25a0e","title":"Output of C program with increment operators","correctAnswer":"12 11 11","selectedOption":"11 11 11","isCorrect":false,"type":"MCQ"},null,null,null,{"id":"67b0eb4a17930522cbe25a12","title":"Non-logical operator identification","correctAnswer":"&","selectedOption":"!","isCorrect":false,"type":"MCQ"}]
