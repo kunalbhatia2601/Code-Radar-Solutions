@@ -16,8 +16,7 @@ int main()
     squareRoot = sqrt(number);
 
     // Print the square root with 2 decimal places
-    printf("Square root of %.2lf = %.2lf\n", number,
-           squareRoot);
+    printf("Square root of %.2lf = %.2lf\n", number, squareRoot);
 
     return 0;
 }
