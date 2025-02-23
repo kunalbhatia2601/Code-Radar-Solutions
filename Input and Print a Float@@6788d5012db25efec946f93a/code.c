@@ -5,10 +5,10 @@ int main()
 {
     // Declare variables to store the input number and its
     // square root
-    double number, squareRoot;
+    double number, squareRoot
 
     // Prompt the user to enter a number
-    printf("Enter a number: ")
+    printf("Enter a number: ");
     // Read the number entered by the user
     scanf("%lf", &number);
 
