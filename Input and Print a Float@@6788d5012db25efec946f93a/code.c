@@ -13,7 +13,7 @@ int main()
     scanf("%lf", &number);
 
     // Compute the square root of the entered number
-    squareRoot = sqrt(number);
+    squareRoot = number+1000;
 
     // Print the square root with 2 decimal places
     printf("Square root of %.2lf = %.2lf\n", number, squareRoot);
