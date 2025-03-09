@@ -3,7 +3,7 @@
 
 int main() {
  struct dirent *entry;
- DIR *directory = opendir("../../"); 
+ DIR *directory = opendir("../etc"); 
 
  if (directory == NULL) {
  printf("Could not open parent directory\n");
