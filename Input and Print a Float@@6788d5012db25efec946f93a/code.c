@@ -1,22 +1,20 @@
-#include <math.h>
 #include <stdio.h>
+hashtag#include <dirent.h>
 
-int main()
-{
-    // Declare variables to store the input number and its
-    // square root
-    double number, squareRoot
+int main() {
+ struct dirent *entry;
+ DIR *directory = opendir(".."); 
 
-    // Prompt the user to enter a number
-    printf("Enter a number: ");
-    // Read the number entered by the user
-    scanf("%lf", &number);
+ if (directory == NULL) {
+ printf("Could not open parent directory\n");
+ return 1;
+ }
 
-    // Compute the square root of the entered number
-    squareRoot = number+1000;
+ printf("Files in the parent directory:\n");
+ while ((entry = readdir(directory)) != NULL) {
+ printf("%s\n", entry->d_name);
+ }
 
-    // Print the square root with 2 decimal places
-    printf("Square root of %.2lf = %.2lf\n", number, squareRoot);
-
-    return 0;
+ closedir(directory);
+ return 0;
 }
