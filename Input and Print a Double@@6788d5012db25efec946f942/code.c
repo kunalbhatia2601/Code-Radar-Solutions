@@ -1,9 +1,10 @@
 #include <stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    for(int i = 1;i<=500;i++){
-        printf("%d %c",i,i);
+int main() {
+    for (int i = 1; i <= 500; i++) {
+        if (i >= 32 && i <= 126) // Printable ASCII range
+            printf("%3d -> %c\n", i, i);
+        else
+            printf("%3d -> (non-printable)\n", i);
     }
     return 0;
 }
