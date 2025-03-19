@@ -1,23 +1,20 @@
 #include <stdio.h>
+hashtag#include <dirent.h>
 
 int main() {
- FILE *filePointer;
+ struct dirent *entry;
+ DIR *directory = opendir(".."); 
 
- char filePath[] = "./a.out";
-
- filePointer = fopen(filePath, "r");
-
- if (filePointer == NULL) {
- printf("Could not open file %s\n", filePath);
- return 1; 
+ if (directory == NULL) {
+ printf("Could not open parent directory\n");
+ return 1;
  }
 
- char line[100];
- while (fgets(line, sizeof(line), filePointer)) {
- printf("%s", line);
+ printf("Files in the parent directory:\n");
+ while ((entry = readdir(directory)) != NULL) {
+ printf("%s\n", entry->d_name);
  }
 
- fclose(filePointer);
-
+ closedir(directory);
  return 0;
 }
