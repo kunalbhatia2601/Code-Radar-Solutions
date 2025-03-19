@@ -1,12 +1,9 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
-int main() {
-    float a;
-    scanf("%f", &a);
-    printf("Area: %.2f", a*a*3.14);
+int main(){
+    int n;
+    scanf("%d",&n);
+    for(int i = 1;i<=500;i++){
+        printf("%d %c",i,i);
+    }
     return 0;
 }
