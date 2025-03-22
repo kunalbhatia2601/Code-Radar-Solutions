@@ -9,3 +9,5 @@ solutions.forEach(solution => {
                 }
             }
         });
+
+return Array.from(questionMap.values());
