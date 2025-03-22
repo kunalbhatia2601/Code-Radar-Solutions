@@ -1,0 +1,11 @@
+solutions.forEach(solution => {
+            const questionId = solution.problem_id;
+            if (!questionMap.has(questionId)) {
+                questionMap.set(questionId, solution);
+            } else {
+                const existingSolution = questionMap.get(questionId);
+                if (solution.total_correct > existingSolution.total_correct) {
+                    questionMap.set(questionId, solution);
+                }
+            }
+        });
