@@ -12,7 +12,7 @@ int main() {
 
     float r = (float) (a+b+c)/3;
 
-    printf("Average: %.2f", r);
+    printf("Averae: %.2f", r);
 
     return 0;
 }
